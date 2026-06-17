@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #333333;
+    background-color: #333;
     font-size: 1.2em;
     padding: 1em;
     padding-top: 5em;
@@ -11,20 +11,20 @@
 
 }
 
-nav ul {
+.navbar ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
+.navbar ul li {
     display: inline;
     margin: 0 1em;
     list-style: none;
 
 }
 
-nav ul li a {
+.navbar ul li a {
     color: #fff;
 }
 
@@ -83,7 +83,7 @@ section {
 
 .portfolio-item img {
     width: 100%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-item:hover {
